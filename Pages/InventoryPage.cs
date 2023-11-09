@@ -6,7 +6,7 @@ namespace Pages
     {
         // Mapeamento dos Elementos
         // Como queremos mapear o botão "Add to Cart" e o id muda por produto
-        // Iremos mapear de forma dinâmica pelo bloco de Ações
+        // Mapeamento de forma dinâmica pelo bloco de Ações
 
         // Construtor
         public InventoryPage(IWebDriver driver) : base(driver){}
