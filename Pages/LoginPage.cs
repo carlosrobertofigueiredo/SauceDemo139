@@ -18,10 +18,15 @@ namespace Pages
         public LoginPage(IWebDriver driver) : base(driver){}
 
         // Ações a serem usadas na automação
-        public void PreencherUsuarioESenha(String usuario, String senha)
+        public void PreencherUsuario(String usuario)
         {
             txtUsuario.SendKeys(usuario);
-            txtSenha.SendKeys(senha);
+           
+        }
+
+        public void PreencherSenha( String senha)
+        {
+           txtSenha.SendKeys(senha);
         }
 
         public void ClicarNoBotaoLogin()
